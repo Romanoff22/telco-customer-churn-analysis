@@ -28,35 +28,23 @@ This project follows a full analytics workflow: raw data cleaning → SQL-based 
 
 ## Repository Structure
 
+```
 ├── data/
-
 │   ├── Telco_customer_churn.xlsx       # Raw dataset
-
 │   └── telco_churn_cleaned.csv         # Cleaned dataset
-
 │
-
 ├── notebooks/
-
 │   ├── 01_Cleaning.ipynb               # Data cleaning & preprocessing
-
 │   └── 02_EDA.ipynb                    # Exploratory data analysis
-
 │
-
 ├── sql/
-
 │   └── *.sql                           # 16 business queries
-
 │
-
 ├── dashboard/
-
 │   └── visualization.pbix              # Power BI dashboard
-
 │
-
 └── README.md
+```
 
 ---
 
