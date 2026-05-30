@@ -6,8 +6,10 @@ An end-to-end data analysis project identifying the key drivers of customer chur
 
 ## Project Overview
 
-**Dataset:** [IBM Telco Customer Churn](https://www.kaggle.com/datasets/yeanzc/telco-customer-churn-ibm-dataset) 
+**Dataset:** [IBM Telco Customer Churn](https://www.kaggle.com/datasets/yeanzc/telco-customer-churn-ibm-dataset)
+
 **Overall churn rate:** 26.6% (1,869 customers)  
+
 **Lost MRR to churn:** ~$139K/month
 
 This project follows a full analytics workflow: raw data cleaning → SQL-based business queries → exploratory data analysis → an interactive Power BI dashboard.
@@ -27,19 +29,33 @@ This project follows a full analytics workflow: raw data cleaning → SQL-based 
 ## Repository Structure
 
 ├── data/
+
 │   ├── Telco_customer_churn.xlsx       # Raw dataset
+
 │   └── telco_churn_cleaned.csv         # Cleaned dataset
+
 │
+
 ├── notebooks/
+
 │   ├── 01_Cleaning.ipynb               # Data cleaning & preprocessing
+
 │   └── 02_EDA.ipynb                    # Exploratory data analysis
+
 │
+
 ├── sql/
+
 │   └── *.sql                           # 16 business queries
+
 │
+
 ├── dashboard/
+
 │   └── visualization.pbix              # Power BI dashboard
+
 │
+
 └── README.md
 
 ---
