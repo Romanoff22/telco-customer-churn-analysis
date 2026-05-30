@@ -7,6 +7,7 @@ An end-to-end data analysis project identifying the key drivers of customer chur
 ## Project Overview
 
 **Dataset:** [IBM Telco Customer Churn](https://www.kaggle.com/datasets/yeanzc/telco-customer-churn-ibm-dataset) 
+
 **Overall churn rate:** 26.6% (1,869 customers)  
 **Lost MRR to churn:** ~$139K/month
 
