@@ -100,6 +100,7 @@ The Power BI dashboard covers 7 pages:
 │
 ├── dashboard/
 │   └── visualization.pbix              # Power BI dashboard
+│   └── screenshots/                    # Dashboard page screenshots
 │
 └── README.md
 ```
